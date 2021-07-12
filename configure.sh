@@ -1,5 +1,5 @@
 #!/bin/sh
-# Download and install V2Ray
+# Download and install
 curl -L -H "Cache-Control: no-cache" -o /v2ray.zip https://github.com/v2ray/v2ray-core/releases/latest/download/v2ray-linux-64.zip
 mkdir /usr/bin/v2ray /etc/v2ray
 touch /etc/v2ray/config.json
